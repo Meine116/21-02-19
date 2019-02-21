@@ -4,9 +4,9 @@ function setup() {
 
 function draw() {
   background(220);
-  var a = 15
-    var b = 20
-      var c = -12
+  var a = 10
+    var b = 25
+      var c = -8
       var x = general1(a,b,c);
   var y =  general2(a,b,c);
   console.log(x)
