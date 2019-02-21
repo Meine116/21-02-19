@@ -4,7 +4,7 @@ function setup() {
 
 function draw() {
   background(220);
-  var tempMTyC = 10;
+  var tempMTyC = 50;
   tempMTyF = celsiusToF(tempMTyC);
   console.log(tempMTyF);
   
@@ -12,7 +12,7 @@ function draw() {
 
 function celsiusToF(tempC) {
   var tempF;
-  tempF = (9 / 5) * tempC + 32;
+  tempF = (tempC - 32) * (5 / 9)  ;
   return tempF;
 
 }
